@@ -17,20 +17,20 @@ public class home3 {
             if (operation.equals("+")) {
                 sum = value1 + value2;
                 System.out.println ("result: " +sum);
-            } else if (operation.equals("-")) {
+                } else if (operation.equals("-")) {
                 sum = value1 - value2;
                 System.out.println ("result: " +sum);
-            } else if (operation.equals("/")) {
+                } else if (operation.equals("/")) {
                 sum = value1 / value2;
                 System.out.println ("result: " +sum);
-            } else if (operation.equals("*")) {
+                } else if (operation.equals("*")) {
                 sum = value1 * value2;
                 System.out.println ("result: " +sum);
-            } else if (operation.equals("%")) {
-                sum = value1 * value2;
+                } else if (operation.equals("%")) {
+                sum = value1 % value2;
                 System.out.println ("result: " +sum);
-            }
-            if (!operation.equals("+") && !operation.equals("-") && !operation.equals("*") && !operation.equals("/") && !operation.equals("%")) {
+                }
+            else {
                 System.out.println("ERROR: you input unsupported operation");
             }
         }

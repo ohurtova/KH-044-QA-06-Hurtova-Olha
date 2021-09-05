@@ -32,7 +32,7 @@ public class home3_switch {
                 System.out.println("result: " + sum);
                 break;
             case "%":
-                sum = value1 / value2;
+                sum = value1 % value2;
                 System.out.println("result: " + sum);
                 break;
             default:
