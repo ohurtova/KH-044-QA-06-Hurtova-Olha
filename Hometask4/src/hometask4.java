@@ -17,7 +17,7 @@ public class hometask4 {
             System.out.println(myList[i] + " ");
         }
 
-        int filter=0;
+        int filter;
 
         do { filter = scanner.nextInt();
 
@@ -28,7 +28,6 @@ public class hometask4 {
                     for (int i = 0; i < myArray.length; i++) {
                         if (myArray[i].length() == num1) {
                             System.out.println("Result : - " + myArray[i]);
-                            filter++;
                         }
                     } break;
                 case 2:
@@ -37,7 +36,6 @@ public class hometask4 {
                     for (int i = 0; i < myArray.length; i++) {
                         if (myArray[i].startsWith(temp)) {
                             System.out.println("Result : - " + myArray[i]);
-                            filter++;
                         }
                     } break;
                 case 3:
@@ -46,7 +44,6 @@ public class hometask4 {
                     for (int i = 0; i < myArray.length; i++) {
                         if (myArray[i].endsWith(temp1)) {
                             System.out.println("Result : - " + myArray[i]);
-                            filter++;
                         }
                     } break;
                 case 4:
@@ -55,9 +52,11 @@ public class hometask4 {
                     for (int i = 0; i < myArray.length; i++) {
                         if (myArray[i].contains(temp2)) {
                             System.out.println("Result : - " + myArray[i]);
-                            filter++;
                         }
                     } break;
+                case 0;
+                    System.exit(0);
+                    break;
 
                 default:
                     System.out.println("ERROR: you input unsupported filter");
