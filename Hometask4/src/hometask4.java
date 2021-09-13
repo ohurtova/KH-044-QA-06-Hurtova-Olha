@@ -54,7 +54,7 @@ public class hometask4 {
                             System.out.println("Result : - " + myArray[i]);
                         }
                     } break;
-                case 0;
+                case 0:
                     System.exit(0);
                     break;
 
