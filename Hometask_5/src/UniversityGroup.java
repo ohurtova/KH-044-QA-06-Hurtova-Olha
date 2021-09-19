@@ -19,6 +19,7 @@ public class UniversityGroup {
         this.endYear = startYear + 5;
         this.studentList = studentList;
     }
+
             //методы
     public String getGroupName() {
         return groupName;
@@ -33,6 +34,7 @@ public class UniversityGroup {
         return studentList;
     }
 
+
     public void addStudent (String student) {
         studentList.add(student);
     }
@@ -40,12 +42,4 @@ public class UniversityGroup {
     public boolean removeStudent(String student) {
         return studentList.remove(student);
     }
-
-   /* public void getGroupDescription() {
-        System.out.println("Group : " + getGroupName());
-        System.out.println("Start : " + getStartYear());
-        System.out.println("End : " + getEndYear());
-        System.out.println("List : " + getStudentList());
-    }*/
-
 }
