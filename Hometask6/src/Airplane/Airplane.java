@@ -40,7 +40,7 @@ public class Airplane extends Vehicle {
 
     @Override
     public String getName() {
-        return "Airplane";
+        return "Airplanes";
     }
 
     @Override
