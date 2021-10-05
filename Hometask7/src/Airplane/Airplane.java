@@ -57,16 +57,6 @@ public class Airplane implements IVehicle, ICharacteristics {
     }
 
     @Override
-    public void transportation() {
-        IVehicle.super.transportation();
-    }
-
-    @Override
-    public void energy() {
-        ICharacteristics.super.energy();
-    }
-
-    @Override
     public void fuel() {
         System.out.println("A special type of fuel is required for high-quality engine operation");
     }
